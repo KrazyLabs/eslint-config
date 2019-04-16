@@ -11,16 +11,13 @@ module.exports = {
   ],
   plugins: ["flowtype"],
   parser: "babel-eslint",
-  globals: {
-  },
+  globals: {},
   env: {
     es6: true,
     node: true
   },
   rules: {
-    // "jsx-quotes": [2, "prefer-double"],
     "react/jsx-space-before-closing": 0,
-    // "react/jsx-tag-spacing": [2, { beforeSelfClosing: "always" }],
     "standard/computed-property-even-spacing": 0,
 
     "react/prefer-stateless-function": 1,
