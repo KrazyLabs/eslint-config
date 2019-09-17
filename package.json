@@ -1,13 +1,13 @@
 {
   "name": "@krazylabs/eslint-config",
-  "version": "6.4.0",
+  "version": "6.4.1",
   "description": "Shared lint config",
   "main": "index.js",
   "scripts": {},
   "author": "Sean Timm",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">= 6.40",
+    "eslint": ">= 6.4.0",
     "prettier": ">= 1.17"
   },
   "dependencies": {
