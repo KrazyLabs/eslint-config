@@ -1,6 +1,6 @@
 {
   "name": "@krazylabs/eslint-config",
-  "version": "7.0.2",
+  "version": "8.0.0",
   "description": "Shared lint config",
   "main": "index.js",
   "scripts": {},
