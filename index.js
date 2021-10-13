@@ -6,10 +6,7 @@ module.exports = {
     "plugin:flowtype/recommended",
     "standard",
     "standard-react",
-    "plugin:prettier/recommended",
-    "prettier/flowtype",
-    "prettier/react",
-    "prettier/standard"
+    "plugin:prettier/recommended"
   ],
   plugins: ["flowtype"],
   parser: "babel-eslint",
