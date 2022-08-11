@@ -3,14 +3,25 @@ module.exports = {
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:flowtype/recommended",
     "standard",
-    "standard-react",
+    "plugin:flowtype/recommended",
+    "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
   plugins: ["flowtype"],
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
+  parserOptions: {
+    requireConfigFile: false,
+    babelOptions: {
+      babelrc: true
+    }
+  },
   globals: {},
+  settings: {
+    react: {
+      version: "detect"
+    }
+  },
   env: {
     es6: true,
     node: true
